@@ -1,8 +1,8 @@
 let click = document.querySelector('.btn');
 let reset = document.querySelector('.reset');
-let myInput = document.getElementById("input").value;
+let myInput = document.getElementById("input");
 let progress = document.querySelector('#progressDone');
-let score = myInput;
+let score = 50;
 let time = 3000 / score;
 click.addEventListener('click', (e) => {
     let counter = 0;
